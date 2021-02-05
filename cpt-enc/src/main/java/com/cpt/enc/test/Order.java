@@ -18,6 +18,8 @@ public class Order {
     @Desensitized(mode = Mode.PHONE)
     private String phone="150100110001";
 
+    private Goods goods;
+
     private List<Goods> goodsList;
 
     private Map<String,Object> detailMap;

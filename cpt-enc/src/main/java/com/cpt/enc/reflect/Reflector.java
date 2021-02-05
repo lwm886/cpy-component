@@ -126,11 +126,14 @@ public class Reflector {
         Detail d1 = new Detail();
         Goods g1 = new Goods();
         g1.setGoodsDetail(Lists.newArrayList(d1));
+        Detail d31 = new Detail();
+        Goods g31 = new Goods();
+        g31.setGoodsDetail(Lists.newArrayList(d31));
 
         Order order = new Order();
         order.setId("1");
         order.setGoodsList(Lists.newArrayList(g1));
-
+        order.setGoods(g31);
         Map map=new HashMap();
         Detail d3 = new Detail();
         map.put("goods",d3);

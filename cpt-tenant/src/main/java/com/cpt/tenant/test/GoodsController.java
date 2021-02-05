@@ -1,4 +1,4 @@
-package com.cpt.tenant;
+package com.cpt.tenant.test;
 
 import com.cpt.tenant.core.Tenant;
 import com.cpt.tenant.core.TenantMode;

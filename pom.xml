@@ -17,6 +17,7 @@
 		<module>cpt-tenant</module>
 		<module>cpt-enc</module>
 		<module>cpt-pom</module>
+		<module>cpt-gif</module>
 	</modules>
 
 </project>
